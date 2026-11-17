@@ -135,6 +135,9 @@
     letter-spacing: 0.22em;
   }
 
+  /* Razmak slova posle poslednjeg slova bi pomerio crtu ka 2027; poništavamo ga. */
+  .uskoro span:not(.crta) { margin-right: -0.22em; }
+
   .uskoro .crta {
     display: block;
     width: 52px;
