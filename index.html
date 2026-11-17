@@ -208,7 +208,7 @@
   }
 
   .sitno {
-    margin: 4px 0 0;
+    margin: 12px 0 0;
     font-size: 12px;
     line-height: 1.5;
     font-weight: 400;
@@ -303,7 +303,7 @@
     form { margin-top: 56px; }
     button { padding: 0 28px; }
     .napomena { margin-top: 14px; font-size: 15px; }
-    .sitno { margin-top: 6px; font-size: 13px; }
+    .sitno { margin-top: 14px; font-size: 13px; }
 
     .hvala { margin: 0; }
     .hvala p:not(.naslov) { margin-left: 0; font-size: 17px; max-width: 360px; }
@@ -344,13 +344,12 @@
           <label for="email">Javi mi kad krenemo</label>
           <div class="red">
             <input id="email" name="EMAIL" type="email" required autocomplete="email" inputmode="email" placeholder="tvoj@email.com">
-            <button type="submit">Javi mi</button>
+            <button type="submit">Upiši me</button>
           </div>
           <!-- Zamka za botove: ljudi ovo polje ne vide i ostaje prazno. -->
           <input class="zamka" type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true">
           <input type="hidden" name="locale" value="en">
           <p class="greska" id="greska" role="alert" hidden></p>
-          <p class="napomena">Javljamo se samo kad krenemo. Bez spama.</p>
           <p class="sitno">Email koristimo samo za obaveštenje o lansiranju. Odjava je jednim klikom, u svakom mejlu. <a href="zastita-podataka.html">Zaštita podataka</a></p>
         </form>
       </div>
